@@ -4,6 +4,13 @@
 
 The Model Optimizer process assumes you have a network model that was trained with a supported framework.
 
+The Model Optimizer produces an Intermediate Representation (IR) of the network as output. The Inference Engine reads, loads, and infers the Intermediate Representation. The Inference Engine API offers a unified API across supported Intel® platforms. The Intermediate Representation is a pair of files that describe the whole model:
+
+<ul>
+    <li> .xml: Describes the network topology</li>
+    <li>.bin: Contains the weights and biases binary data</li>
+</ul>
+
 ## Configure the Model Optimizer
 
 You must configure the Model Optimizer for the framework that was used to train the model. This section tells you how to configure the Model Optimizer through scripts provided with installation.
