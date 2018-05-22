@@ -15,8 +15,6 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 ### Choose a configuration option:
 
-<br>
-
 #### Option 1. configure all three frameworks at the same time: 
 
 <ol>
