@@ -6,7 +6,7 @@
 
 ## Next Steps
 
-[How to run the sample applications]()
+[How to Run the Sample Applications on Linux*]()
 
 <br>
 
