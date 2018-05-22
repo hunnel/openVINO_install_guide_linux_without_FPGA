@@ -43,7 +43,7 @@ The installation automatically creates the install_dependencies directory under 
 
     reboot
 
-> NOTE: You must reboot the machine after running the scripts.
+</ol>
 
 <br>
 
