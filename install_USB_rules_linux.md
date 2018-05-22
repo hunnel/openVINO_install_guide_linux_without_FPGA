@@ -18,13 +18,21 @@ The installation automatically creates the install_dependencies directory under 
 <br>
 
     sudo cp 97-usbboot.rules /etc/udev/rules.d/
-    
+ 
+<br>
+ 
     sudo udevadm control --reload-rules
-    
+  
+<br>
+ 
     sudo udevadm trigger
-    
+  
+<br>
+  
     sudo ldconfig
-    
+   
+<br>
+   
     rm 97-usbboot.rules
 
 
