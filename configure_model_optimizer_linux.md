@@ -24,26 +24,30 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 <li> Run the following script to configure Model Optimizer for Caffe, TensorFlow and MXNet
 
-    install_prerequisites.sh
+    ./install_prerequisites.sh
 
 </ol>
 
 #### To configure each framework separately: 
 
 <ol>
-    <li> </li>
+    <li> Navigate to the Model Optimizer prerequisites directory</li>
+
+    cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
+
+<li> Run the script necessary for your model framework</li>
 
 <ul>
 
-<li> For Caffe* on Linux*:</li>
+<li> For Caffe* on Linux*</li>
 
-    install_prerequisites_caffe.sh
+    ./install_prerequisites_caffe.sh
 
-<li> For TensorFlow* on Linux*:</li>
+<li> For TensorFlow* on Linux*</li>
 
-    install_prerequisites_tf.sh
+    ./install_prerequisites_tf.sh
 
-<li> For MXNet* on Linux*:</li>
+<li> For MXNet* on Linux*</li>
 
     install_prerequisites_mxnet.sh
 
