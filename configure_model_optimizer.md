@@ -2,8 +2,6 @@
 
 # Intel® OpenVINO™ Toolkit | Configure Model Optimizer
 
-> **Note:**  It you are using OpenVINO™ Toolkit on Windows, please see [Hello World for Windows](https://github.com/hunnel/openVINO_hello_world_windows)
-
 <br>
 
 ## Next Steps
