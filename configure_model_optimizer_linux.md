@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)
-[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)
+[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)<br>
+[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)<br>
 
 <br>
 
