@@ -20,7 +20,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 <ol>
     <li> Navigate to the Model Optimizer prerequisites directory
 
-        cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
+    cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
 
 <li> Run the following script to configure Model Optimizer for Caffe, TensorFlow and MXNet
 
