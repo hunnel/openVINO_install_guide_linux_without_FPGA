@@ -6,6 +6,8 @@
 
 - [ ] [Download and Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
 
+<br>
+
 ## Introduction
 
 The Hello World demonstration serves several purposes:
