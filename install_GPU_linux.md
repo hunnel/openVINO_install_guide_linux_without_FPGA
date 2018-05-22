@@ -1,6 +1,6 @@
 
 
-# Intel® OpenVINO™ Toolkit <br>Post-Installation Steps to Support Processor Graphics (GPU)
+# Intel® OpenVINO™ Toolkit | Post-Installation Steps to Support Processor Graphics (GPU)
 
 > **Note:**  This step is only required if you want to enable OpenVINO™ Toolkit components to utilize processor graphics on your system
 
