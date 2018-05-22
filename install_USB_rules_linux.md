@@ -15,6 +15,7 @@ The installation automatically creates the install_dependencies directory under 
     SUBSYSTEM=="usb", ATTRS{idProduct}=="f63b", ATTRS{idVendor}=="03e7", GROUP="users", MODE="0666",      ENV{ID_MM_DEVICE_IGNORE}="1"
     EOF
 
+<br>
 
     sudo cp 97-usbboot.rules /etc/udev/rules.d/
     
