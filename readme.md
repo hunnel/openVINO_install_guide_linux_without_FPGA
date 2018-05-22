@@ -10,6 +10,8 @@
 
 - [ ] [Download Intel® OpenVINO™ Toolkit for Linux*](https://software.intel.com/en-us/openvino-toolkit/choose-download)<br>
 
+<br>
+
 ## Introduction
 
 The OpenVINO™ toolkit quickly deploys applications and solutions that emulate human vision. Based on Convolutional Neural Networks (CNN), the Toolkit extends computer vision (CV) workloads across Intel® hardware, maximizing performance. The OpenVINO™ Toolkit includes the Intel® Deep Learning Deployment Toolkit.
