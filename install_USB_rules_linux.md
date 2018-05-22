@@ -1,6 +1,6 @@
 
 
-# Intel® OpenVINO™ Toolkit <br>Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)
+# Intel® OpenVINO™ Toolkit | Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)
 
 > **Note:**  This step is only required if you want to to perform inference on Intel® Movidius™ Neural Compute Stick using Intel® OpenVINO™ Toolkit.
 
