@@ -65,6 +65,16 @@ The sample application binaries are in <path_to_build_directory>/intel64/Release
 
 <br>
 
+## Set Your Environment Variables
+
+Use the setupvars script to make sure your application can find the Interface Engine libraries.
+
+For Linux, execute the following command to set the environment variable:
+
+    source <INSTALL_DIR>/bin/setupvars.sh
+
+<br>
+
 ## Next Steps
 
 [How to Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/configure_model_optimizer_linux.md)
