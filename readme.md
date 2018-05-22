@@ -155,6 +155,8 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 	cd /opt/intel/computer_vision_sdk_2018.1.<version>/
 </ol>
 
+<br>
+
 ## Set Environment Variables
 
 Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. You can permanently set environment variables in a way matching your system's conventions. A method to set these variables temporarily (lasting only as long as the shell) is provided. For a standard OpenVINO™ toolkit installation:<br>
