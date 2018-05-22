@@ -130,15 +130,18 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 
 	cd l_openvino_toolkit_p_2018.1.<version>
 
+<li> Choose between a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.</li>
+
+<ul>
 <li> Start the GUI-based installation wizard:</li><br>
 	
 	./install_GUI.sh
 
-(optional) <strong>or</strong> the CLI installer:<br>
+<li><strong>(or)</strong>the CLI installer:</li><br>
 
 	./install.sh
 
-<li> Choose between a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.</li>
+</ul>
 
 <li> The Prerequisites screen tells you if you are missing any required or recommended components, and the effect the missing component has on installing or using the product.</li>
 
