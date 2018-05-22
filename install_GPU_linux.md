@@ -4,8 +4,6 @@
 
 > **Note:**  This step is only required if you want to enable OpenVINO™ Toolkit components to utilize processor graphics on your system
 
-<br>
-
 ## Prerequisites
 
 [ ] [Download Intel® OpenVINO™ Toolkit for Linux*](https://software.intel.com/en-us/openvino-toolkit/choose-download)<br>
