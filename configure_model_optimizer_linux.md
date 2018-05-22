@@ -1,6 +1,6 @@
 
 
-# Intel® OpenVINO™ Toolkit | Configure the Model Optimizer on Linux*
+# Intel® OpenVINO™ Toolkit <br>Configure the Model Optimizer on Linux*
 
 <br>
 
