@@ -18,11 +18,11 @@ You must configure the Model Optimizer for the framework that was used to train 
 #### To configure all three frameworks at the same time: 
 
 <ol>
-    <li> Navigate to the Model Optimizer prerequisites directory
+    <li> Navigate to the Model Optimizer prerequisites directory</li><br>
 
     cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
 
-<li> Run the following script to configure Model Optimizer for Caffe, TensorFlow and MXNet
+<li> Run the following script to configure Model Optimizer for Caffe, TensorFlow and MXNet</li><br>
 
     ./install_prerequisites.sh
 
