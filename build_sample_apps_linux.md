@@ -20,7 +20,7 @@ The following sample applications are available in the samples directory in the 
 You are provided several pre-trained models. The table below shows the correlation between models and samples/devices.  The samples are available in `<INSTALL_DIR>/deployment_tools/inference_engine/samples`
 
 
-| Model	| Sample Supported on the Model | CPU	| Intel® Integrated Graphics	| HETERO:FPGA,CPU	| Intel® Movidius™ Myriad™ 2 VPU |
+| Model	  | Sample Supported on the Model  | CPU	  | Intel® Integrated Graphics  	| HETERO:FPGA,CPU	  | Intel® Movidius™  Myriad™ 2 VPU   |
 | ------------- | ------------- |
 | CPU Extensions | Library with topology-specific layers, like `DetectionOutput` used in the SSDl  |
 | Image Classification Sample | Inference of image classification networks like AlexNet and GoogLeNet (the sample supports only images as inputs) |
