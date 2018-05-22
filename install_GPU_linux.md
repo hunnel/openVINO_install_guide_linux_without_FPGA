@@ -22,7 +22,9 @@ Run these scripts and then reboot:
 
 ## Next Steps
 
+(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)]()
 
+[Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)
 
 <br>
 
