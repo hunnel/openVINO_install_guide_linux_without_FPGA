@@ -1,4 +1,4 @@
-# Intel® OpenVINO™ Toolkit | Installation Guide for Linux*
+# Intel® OpenVINO™ Toolkit <br>Installation Guide for Linux*
 
 > It you are using OpenVINO™ Toolkit on Windows, please see [Installation Guide for Windows*](https://github.com/hunnel/openVINO_hello_world_windows)
 
