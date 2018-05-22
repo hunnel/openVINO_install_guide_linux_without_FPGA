@@ -5,7 +5,7 @@
 ## Prerequisites
 
 - [ ] [Download and Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
-- [ ] [Run the Hello World Demos for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
+- [ ] [Run the Hello World Demos for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)<br>
 
 <br>
 
@@ -89,8 +89,6 @@ For Linux, execute the following command to set the environment variable:<br>
 ## Next Steps
 
 [How to Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/configure_model_optimizer_linux.md)
-
-<br>
 
 
 ***
