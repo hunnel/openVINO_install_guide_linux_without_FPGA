@@ -1,6 +1,6 @@
 
 
-# Intel® OpenVINO™ Toolkit | Build the Sample Applications on Linux*
+# Intel® OpenVINO™ Toolkit <br>Build the Sample Applications on Linux*
 
 The Inference Engine sample applications are simple console applications that demonstrate how to use Intel's Deep Learning Inference Engine in your applications.
 
