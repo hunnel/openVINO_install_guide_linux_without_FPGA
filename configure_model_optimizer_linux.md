@@ -31,17 +31,16 @@ You must configure the Model Optimizer for the framework that was used to train 
 #### To configure each framework separately: 
 
 <ol>
-    <li> Navigate to the Model Optimizer prerequisites directory</li>
+    <li> Navigate to the Model Optimizer prerequisites directory</li><br>
     
 
     cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
 
-<li> Run the script necessary for your model framework</li>
+<li> Run the script necessary for your model framework</li><br>
 
 <ul>
 
-<li> For Caffe* on Linux*</li>
-
+<li> For Caffe* on Linux*</li><br>
 
     ./install_prerequisites_caffe.sh
 
