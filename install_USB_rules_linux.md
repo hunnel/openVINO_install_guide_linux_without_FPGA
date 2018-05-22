@@ -2,11 +2,15 @@
 
 # Intel® OpenVINO™ Toolkit | Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)
 
-> **Note:**  This step is only required if you want to to perform inference on Intel® Movidius™ Neural Compute Stick using Intel® OpenVINO™ Toolkit.
+## Prerequisites
+
+[ ] [Download and Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
 
 <br>
 
 ## Install USB Rules
+
+> **Note:**  These steps are only required if you want to to perform inference on Intel® Movidius™ Neural Compute Stick using Intel® OpenVINO™ Toolkit.
 
 The installation automatically creates the install_dependencies directory under /opt/intel/computer_vision_sdk. This directory contains several scripts to enable OpenVINO™ Toolkit to utilize processor graphics on your system.
 
