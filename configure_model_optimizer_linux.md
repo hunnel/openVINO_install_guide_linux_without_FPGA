@@ -11,7 +11,9 @@ The Model Optimizer produces an Intermediate Representation (IR) of the network 
 
 ## Configure the Model Optimizer
 
-You must configure the Model Optimizer for the framework that was used to train the model. (supported frameworks: Caffe*, TensorFlow* and MXNet*) This section tells you how to configure the Model Optimizer through scripts provided with installation.
+You must configure the Model Optimizer for the framework that was used to train the model. This section tells you how to configure the Model Optimizer through scripts provided with installation.
+
+> Model Optimizer currently supports Caffe*, TensorFlow* and MXNet*
 
 > For instructions on how to configure Model Optimizer manually, see the [Model Optimizer Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer)
 
