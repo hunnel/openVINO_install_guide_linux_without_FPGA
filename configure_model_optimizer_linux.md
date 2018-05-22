@@ -2,8 +2,6 @@
 
 # Intel® OpenVINO™ Toolkit <br>Configure the Model Optimizer on Linux*
 
-The Model Optimizer process assumes you have a network model that was trained with a supported framework.
-
 The Model Optimizer produces an Intermediate Representation (IR) of the network as output. The Inference Engine reads, loads, and infers the Intermediate Representation. The Inference Engine API offers a unified API across supported Intel® platforms. The Intermediate Representation is a pair of files that describe the whole model:
 
 <ul>
@@ -13,7 +11,7 @@ The Model Optimizer produces an Intermediate Representation (IR) of the network 
 
 ## Configure the Model Optimizer
 
-You must configure the Model Optimizer for the framework that was used to train the model. This section tells you how to configure the Model Optimizer through scripts provided with installation.
+You must configure the Model Optimizer for the framework that was used to train the model. (supported frameworks: Caffe*, TensorFlow* and MXNet*) This section tells you how to configure the Model Optimizer through scripts provided with installation.
 
 > For instructions on how to configure Model Optimizer manually, see the [Model Optimizer Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer)
 
@@ -37,15 +35,15 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 <ul>
 
-<li> For Caffe on Linux:</li>
+<li> For Caffe* on Linux*:</li>
 
     install_prerequisites_caffe.sh
 
-<li> For TensorFlow on Linux:</li>
+<li> For TensorFlow* on Linux*:</li>
 
     install_prerequisites_tf.sh
 
-<li> For MXNet on Linux:</li>
+<li> For MXNet* on Linux*:</li>
 
     install_prerequisites_mxnet.sh
 
