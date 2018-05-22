@@ -4,10 +4,10 @@
 
 The Model Optimizer produces an Intermediate Representation (IR) of the network as output. The Inference Engine reads, loads, and infers the Intermediate Representation. The Inference Engine API offers a unified API across supported Intel® platforms. The Intermediate Representation is a pair of files that describe the whole model:
 
-<ul>
-    <li><strong> .xml</strong>: Describes the network topology</li>
-    <li><strong> .bin</strong>: Contains the weights and biases binary data</li>
-</ul>
+   <strong> .xml</strong>: Describes the network topology
+   <strong> .bin</strong>: Contains the weights and biases binary data
+   
+<br>
 
 ## Configure the Model Optimizer
 
