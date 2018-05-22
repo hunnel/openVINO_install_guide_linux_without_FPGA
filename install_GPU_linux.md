@@ -8,7 +8,15 @@
 
 ## Set External Software Dependencies (Processor Graphics)
 
-The installation automatically creates the install_dependencies directory under /opt/intel/computer_vision_sdk. This directory contains the following scripts to enable components to utilize processor graphics on your system:
+The installation automatically creates the install_dependencies directory under /opt/intel/computer_vision_sdk. This directory contains several scripts to enable OpenVINO™ Toolkit to utilize processor graphics on your system.
+
+<ol>
+  
+  <li> Navigate to the install_ddependencies directory in the installation location:
+
+    cd /opt/intel/computer_vision_sdk/install_dependencies/
+
+
 
 install_4_14_kernel.sh has steps to update your kernel to 4.14. This is the minimum kernel supported, and the configuration that is validated, but you can choose newer kernels as well. These are mainline kernels, not the kernels officially validated with your operating system. To see if you need to run this script, check your kernel version use uname –r.
 The install_NEO_OCL_driver.sh script installs the OpenCL™ NEOdriver components needed to use the clDNN GPU plugin and write custom layers for Intel® Integrated Graphics. For full functionality from this driver you must be running a 4.14 or newer kernel.
