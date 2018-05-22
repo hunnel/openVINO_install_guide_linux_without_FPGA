@@ -118,7 +118,9 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 ## Installation
 
 <ol>
-<li> Go to the l_openvino_toolkit_p_2018.1.<version> directory.</li>
+<li> Go to the l_openvino_toolkit_p_2018.1.<version> directory:</li><br>
+
+	cd l_openvino_toolkit_p_2018.1.<version>
 
 <li> Start the GUI-based installation wizard:</li><br>
 	
