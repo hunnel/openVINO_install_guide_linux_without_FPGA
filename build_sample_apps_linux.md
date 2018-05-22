@@ -88,7 +88,7 @@ For Linux, execute the following command to set the environment variable:<br>
 
 ## Next Steps
 
-[How to Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/configure_model_optimizer_linux.md)
+[Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/configure_model_optimizer_linux.md)
 
 
 ***
