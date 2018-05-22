@@ -1,5 +1,3 @@
-
-
 # Intel® OpenVINO™ Toolkit <br>Configure the Model Optimizer on Linux*
 
 The Model Optimizer produces an Intermediate Representation (IR) of the network as output. The Inference Engine reads, loads, and infers the Intermediate Representation. The Inference Engine API offers a unified API across supported Intel® platforms. The Intermediate Representation is a pair of files that describe the whole model:
@@ -15,7 +13,11 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 > Model Optimizer currently supports Caffe*, TensorFlow* and MXNet*
 
-#### To configure all three frameworks at the same time: 
+### Choose a configuration option:
+
+<br>
+
+#### Option 1. To configure all three frameworks at the same time: 
 
 <ol>
     <li> Navigate to the Model Optimizer prerequisites directory</li><br>
@@ -28,7 +30,9 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 </ol>
 
-#### To configure each framework separately: 
+<br>
+
+#### Option 2. To configure each framework separately: 
 
 <ol>
     <li> Navigate to the Model Optimizer prerequisites directory</li><br>
