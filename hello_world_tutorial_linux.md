@@ -2,10 +2,6 @@
 
 # Intel® OpenVINO™ Toolkit | Hello World <br>(Linux w/o FPGA support)
 
-> **Note:**  It you are using OpenVINO™ Toolkit on Windows, please see [Hello World for Windows](https://github.com/hunnel/openVINO_hello_world_windows)
-
-<br>
-
 ## Prerequisites
 
 - [ ] [Download and Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
