@@ -6,6 +6,12 @@
 
 <br>
 
+## Prerequisites
+
+[ ] [Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
+
+<br>
+
 ## Set External Software Dependencies (Processor Graphics)
 
 The installation automatically creates the install_dependencies directory under /opt/intel/computer_vision_sdk. This directory contains several scripts to enable OpenVINO™ Toolkit to utilize processor graphics on your system.
