@@ -45,13 +45,14 @@ Prepare your Linux computer for the samples:
 
     cd build
 
-<li> Run CMake to generate the Make files with or without debug information:
+<li> Run CMake to generate the Make files with or without debug information:<br>
 
-Without debug information:<br>
+Without debug information:
 
     cmake -DCMAKE_BUILD_TYPE=Release <path_to_inference_engine_samples_directory>
 
-With debug information:<br>
+<br>
+With debug information:
 
     cmake -DCMAKE_BUILD_TYPE=Debug <path_to_inference_engine_samples_directory>
 
