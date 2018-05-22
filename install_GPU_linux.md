@@ -8,6 +8,7 @@
 
 ## Prerequisites
 
+[ ] [Download Intel® OpenVINO™ Toolkit for Linux*](https://software.intel.com/en-us/openvino-toolkit/choose-download)<br>
 [ ] [Install Intel® OpenVINO™ Toolkit for Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/readme.md)<br>
 
 <br>
