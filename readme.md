@@ -133,15 +133,12 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 <li> Choose between a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.</li>
 
 <ul>
-<li> Start the GUI-based installation wizard:</li><br>
+<li> Use the GUI-based installation wizard.</li><br>
+
+<ol>
+<li> Use the GUI-based installation wizard.</li><br>
 	
 	./install_GUI.sh
-
-<li><strong>(or)</strong>the CLI installer:</li><br>
-
-	./install.sh
-
-</ul>
 
 <li> The Prerequisites screen tells you if you are missing any required or recommended components, and the effect the missing component has on installing or using the product.</li>
 
@@ -152,6 +149,13 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 <li> Choose Install if you are ready to start the installation, or if you want to change the selected components and/or specify the installation directory, choose Customize. To proceed with the standard installation, choose Install.</li>
 
 <li> A Complete screen indicates the software is installed. Click Finish to close the wizard.</li>
+</ol>
+
+<li><strong>(or)</strong>the CLI installer:</li><br>
+
+	./install.sh
+
+</ul>
 
 <li> Open the Getting Started page in the browser in the same mode in which you completed the installation. For example, if you performed your installation in sudo mode, use this command to go to the default installation directory:</li><br>
 
