@@ -52,17 +52,17 @@ This demo utilizes two key components from the OpenVINO™ Toolkit: the **Model 
 
 ## Demo Applications
 
-#### 1. Navigate to the Inference Engine demo directory included with the OpenVINO™ Toolkit installation.
+#### 1. Navigate to the Inference Engine demo directory included with the OpenVINO™ Toolkit installation.<br>
 
 	cd <INSTALL_DIR>/deployment_tools/demo
+
 > **Note:** If you performed your installation in sudo mode, the path to the default installation directory is /opt/intel/computer_vision_sdk/deployment_tools/demo
 
 <br>
 
 #### 2. Run the Image Classification demo script.
 
-This demo uses the Model Optimizer to convert a SqueezeNet model to two Intermediate Representation (IR) files (one .bin and one .xml). The Inference Engine requires this model conversion so it can use the IR as input and achieve optimum performance on Intel hardware. The demo also builds one of the sample applications included in the package.
-
+This demo uses the Model Optimizer to convert a SqueezeNet model to two Intermediate Representation (IR) files (one .bin and one .xml). The Inference Engine requires this model conversion so it can use the IR as input and achieve optimum performance on Intel hardware. The demo also builds one of the sample applications included in the package.<br>
 
 	sudo ./demo_squeezenet_download_convert_run.sh
 
@@ -78,8 +78,7 @@ When the demo completes, you should see the label and confidence for the top-10 
 >**Note:** The Inference Pipeline demo requires several libraries compiled in the previous section. Please make sure to run ./demo_squeezenet_download_convert_run.sh before moving on to the steps below.
 
 
-This demo shows an inference pipeline using three of the pre-trained models included with the OpenVINO™ toolkit™. The region found by one model becomes the input to the next. Vehicle regions found by object recognition in the first phase become the input to the vehicle attributes model, which locates the license plate. The region identified in this step becomes the input to a license plate character recognition model.
-
+This demo shows an inference pipeline using three of the pre-trained models included with the OpenVINO™ toolkit™. The region found by one model becomes the input to the next. Vehicle regions found by object recognition in the first phase become the input to the vehicle attributes model, which locates the license plate. The region identified in this step becomes the input to a license plate character recognition model.<br>
 
 	sudo ./demo_security_barrier_camera.sh
 
