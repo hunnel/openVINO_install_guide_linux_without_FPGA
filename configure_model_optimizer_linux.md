@@ -32,6 +32,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 <ol>
     <li> Navigate to the Model Optimizer prerequisites directory</li>
+    
 
     cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
 
@@ -41,13 +42,14 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 <li> For Caffe* on Linux*</li>
 
+
     ./install_prerequisites_caffe.sh
 
-<li> For TensorFlow* on Linux*</li>
+<li> For TensorFlow* on Linux*</li><br>
 
     ./install_prerequisites_tf.sh
 
-<li> For MXNet* on Linux*</li>
+<li> For MXNet* on Linux*</li><br>
 
     install_prerequisites_mxnet.sh
 
