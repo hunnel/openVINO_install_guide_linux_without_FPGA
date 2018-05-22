@@ -29,7 +29,7 @@ You are provided several pre-trained models. The table below shows the correlati
 
 ## Next Steps
 
-[How to Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/configure_model_optimizer)
+[How to Configure the Model Optimizer on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/configure_model_optimizer_linux.md)
 
 <br>
 
