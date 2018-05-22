@@ -107,7 +107,7 @@ Additional developer guides, API references, tutorials, and other documentation,
 
 ## Next Steps
 
-[Model Comparison Activity](https://github.com/hunnel/model_comparison_activity_linux)
+[How to Build the OpenVINO™ Toolkit Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/build_sample_apps_linux)
 
 <br>
 
