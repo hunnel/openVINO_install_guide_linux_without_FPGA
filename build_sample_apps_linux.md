@@ -37,25 +37,27 @@ Supported Linux build environment:
 Prepare your Linux computer for the samples:
 
 <ol>
-<li>Navigate to a directory that you have write access to and create a samples build directory. This example uses a directory named build:</li>
+<li>Navigate to a directory that you have write access to and create a samples build directory. This example uses a directory named build:</li><br>
 
     mkdir build
 
-<li> Navigate to the new directory:</li>
+<li> Navigate to the new directory:</li><br>
 
     cd build
 
 <li> Run CMake to generate the Make files with or without debug information:
 
-Without debug information:
+Without debug information:<br>
 
     cmake -DCMAKE_BUILD_TYPE=Release <path_to_inference_engine_samples_directory>
 
-With debug information:
+With debug information:<br>
 
     cmake -DCMAKE_BUILD_TYPE=Debug <path_to_inference_engine_samples_directory>
 
-<li> Build the application:
+</li>
+
+<li> Build the application:</li><br>
 
     make
 
@@ -69,7 +71,7 @@ The sample application binaries are in <path_to_build_directory>/intel64/Release
 
 Use the setupvars script to make sure your application can find the Interface Engine libraries.
 
-For Linux, execute the following command to set the environment variable:
+For Linux, execute the following command to set the environment variable:<br>
 
     source <INSTALL_DIR>/bin/setupvars.sh
 
