@@ -1,0 +1,1 @@
+# openVINO_install_guide_linux_without_FPGA
