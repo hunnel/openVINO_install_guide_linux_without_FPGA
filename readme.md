@@ -4,11 +4,11 @@
 
 > The OpenVINO™ toolkit was formerly known as the Intel® Computer Vision SDK. These steps apply to Ubuntu*, CentOS*, and Yocto*.
 
+<br>
+
 ## Prerequisites
 
 - [ ] [Download Intel® OpenVINO™ Toolkit for Linux*](https://software.intel.com/en-us/openvino-toolkit/choose-download)<br>
-
-<br>
 
 ## Introduction
 
