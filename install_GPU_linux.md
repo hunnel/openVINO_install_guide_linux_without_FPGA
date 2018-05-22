@@ -20,9 +20,13 @@ The installation automatically creates the install_dependencies directory under 
   
     sudo –E su
     
-  <li> Update your kernel to 4.14. This is the minimum kernel supported, and the configuration that is validated, but you can choose newer kernels as well. These are mainline kernels, not the kernels officially validated with your operating system.</li>
+  <li> Check your kernal version. The minimum kernel supported is 4.14.</li>
   
-> To see if you need to run this script, check your kernel version use uname –r.
+    uname –r
+  
+> 4.14 is the validated configuration, but you can choose newer kernels as well. Note that these are mainline kernels, not the kernels officially validated with your operating system.
+
+  <li> If your current configuration does not meet the minimum requirement, update your kernel to 4.14</li>
 
     ./install_4_14_kernel.sh
 
