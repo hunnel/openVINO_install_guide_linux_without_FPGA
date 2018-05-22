@@ -158,7 +158,7 @@ Updates to several environment variables are required to compile and run OpenVIN
 
 [Post-Installation Steps for Processor Graphics (GPU)]()
 
-[Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_hello_world_linux/blob/master/hello_world_tutorial_linux.md)
+[Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)
 
 <br>
 
