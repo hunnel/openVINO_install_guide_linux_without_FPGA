@@ -15,6 +15,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 ### Choose a configuration option:
 
+<ul>
 #### Option 1. configure all three frameworks at the same time: 
 
 <ol>
@@ -57,6 +58,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 </ul>
 
 </ol>
+</ul>
 
 > <strong>CAFFE* NOTE:</strong> By default, you do not need to install Caffe to create an Intermediate Representation for a Caffe model unless you use Caffe for custom layer shape inference and do not write Model Optimizer extensions. To learn more about implementing Model Optimizer custom operations and the limitations of using Caffe for shape inference, see [Caffe Models with Custom Layers](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer#caffe-models-with-custom-layers).
 
