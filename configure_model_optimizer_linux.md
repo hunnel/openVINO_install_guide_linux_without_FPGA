@@ -58,7 +58,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 > <strong>CAFFE* NOTE:</strong> By default, you do not need to install Caffe to create an Intermediate Representation for a Caffe model unless you use Caffe for custom layer shape inference and do not write Model Optimizer extensions. To learn more about implementing Model Optimizer custom operations and the limitations of using Caffe for shape inference, see [Caffe Models with Custom Layers](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer#caffe-models-with-custom-layers).
 
-> <strong>TENSORFLOW* NOTE:</strong> To offload part of the inference to the TensorFlow framework, additional configuration steps are required. See the [Model Optimizer Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer#Offloading%20Computations%20to%20TensorFlow) for detailed information.
+> <strong>TENSORFLOW* NOTE:</strong> Additional configuration steps are required to offload part of the inference to the TensorFlow framework. See the [Model Optimizer Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer#Offloading%20Computations%20to%20TensorFlow) for detailed information.
 
 <br>
 
