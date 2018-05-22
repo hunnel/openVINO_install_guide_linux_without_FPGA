@@ -115,7 +115,7 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 
 <br>
 
-##Installation
+## Installation
 
 <ol>
 <li> Go to the l_openvino_toolkit_p_2018.1.<version> directory.</li>
@@ -158,7 +158,7 @@ Updates to several environment variables are required to compile and run OpenVIN
 
 (Optional) [Post-Installation Steps for Processor Graphics (GPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_GPU_linux.md)
 
-(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)]()
+(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_USB_rules_linux.md)
 
 [Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)
 
