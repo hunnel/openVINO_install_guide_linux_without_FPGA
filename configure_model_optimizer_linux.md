@@ -15,7 +15,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 ### Choose a configuration option:
 
-#### Option 1. configure all three frameworks at the same time: 
+#### option 1. Configure all three frameworks at the same time: 
 
 <ol>
     <li> Navigate to the Model Optimizer prerequisites directory</li><br>
@@ -30,11 +30,10 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 <br>
 
-#### Option 2. configure each framework separately: 
+#### option 2. Configure each framework separately: 
 
 <ol>
-    <li> Navigate to the Model Optimizer prerequisites directory</li><br>
-    
+    <li> Navigate to the Model Optimizer prerequisites directory</li><br>    
 
     cd <INSTALL_DIR>/deployment_tools/model_optimizer/install_prerequisites directory
 
