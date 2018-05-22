@@ -53,7 +53,7 @@ The installation automatically creates the install_dependencies directory under 
 
 ## Next Steps
 
-(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)]()
+(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_USB_rules_linux.md)
 
 [Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)
 
