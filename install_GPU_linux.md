@@ -32,7 +32,7 @@ The installation automatically creates the install_dependencies directory under 
 
 <li> Install the OpenCL™ NEOdriver components needed to use the clDNN GPU plugin and write custom layers for Intel® Integrated Graphics. For full functionality from this driver you must be running a 4.14 or newer kernel.</li>
 
-    ./install_OCL_driver.sh
+    ./install_NEO_OCL_driver.sh
 
 <li> Navigate to the Media Stack directory.
     
