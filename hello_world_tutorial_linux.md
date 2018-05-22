@@ -107,6 +107,7 @@ For detailed information about the samples, please see the <strong>samples overv
 
 Additional developer guides, API references, tutorials, and other documentation, see the [OpenVINO™ Toolkit documentation](https://software.intel.com/en-us/openvino-toolkit/documentation/featured).
 
+<br>
 
 ## Next Steps
 
