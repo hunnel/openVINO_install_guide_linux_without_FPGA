@@ -12,7 +12,7 @@ The installation automatically creates the install_dependencies directory under 
 
 <ol>
   
-  <li> Navigate to the install_ddependencies directory in the installation location:</li>
+  <li> Navigate to the install_dependencies directory in the installation location:</li>
 
     cd /opt/intel/computer_vision_sdk/install_dependencies/
 
