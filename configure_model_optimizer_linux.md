@@ -1,5 +1,14 @@
 # Intel® OpenVINO™ Toolkit <br>Configure the Model Optimizer on Linux*
 
+## Prerequisites
+
+[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)
+[ ] [How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)
+
+<br>
+
+## Introduction
+
 The Model Optimizer produces an Intermediate Representation (IR) of the network as output. The Inference Engine reads, loads, and infers the Intermediate Representation. The Inference Engine API offers a unified API across supported Intel® platforms. The Intermediate Representation is a pair of files that describe the whole model:
 
 <strong>.xml</strong>: Describes the network topology<br>
@@ -65,7 +74,7 @@ You must configure the Model Optimizer for the framework that was used to train 
 
 ## Next Steps
 
-[How to Run the Sample Applications on Linux*]()
+[How to Run the Sample Applications on Linux*](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/running_sample_applications_linux.md)
 
 <br>
 
