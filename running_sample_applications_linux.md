@@ -9,6 +9,10 @@
 
 <br>
 
+You can find the section on "running the sample apps" about halfway down the page. We should bring in all of the instructions related to this.
+
+https://software.intel.com/en-us/articles/OpenVINO-InferEngine
+
 ## Next Steps
 
 [TBD]()
