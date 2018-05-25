@@ -129,14 +129,16 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 <li> Go to the l_openvino_toolkit_p_2018.1.<version> directory:</li><br>
 
 	cd l_openvino_toolkit_p_2018.1.<version>
+</ol>
 
-<li> Choose between a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.</li>
+### Choose between the GUI or command-line installer.
 
-<ul>
-<li> Use the GUI-based installation wizard.</li><br>
+	> You have the option to use either a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.
+
+#### option 1. Use the GUI-based installation wizard.
 
 <ol>
-<li> Use the GUI-based installation wizard.</li><br>
+<li> Run the following script to use the GUI-based installation wizard.</li><br>
 	
 	./install_GUI.sh
 
@@ -151,25 +153,30 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 <li> A Complete screen indicates the software is installed. Click Finish to close the wizard.</li>
 </ol>
 
-<li><strong>(or)</strong>the CLI installer:</li><br>
+#### option 2. Use the command-line installation wizard.
+
+<ol>
+<li> Run the following script to use the command line installation:</li><br>
 
 	./install.sh
 
-</ul>
+</ol>
 
-<li> Open the Getting Started page in the browser in the same mode in which you completed the installation. For example, if you performed your installation in sudo mode, use this command to go to the default installation directory:</li><br>
+The Getting Started guide should open automatically in the browser once you complete the installation. 
+
+If you used the default installation configuration, you can navigate to the OpenVINO™ Toolkit directory using the following command:
 
 	cd /opt/intel/computer_vision_sdk_2018.1.<version>/
-</ol>
 
 <br>
 
 ## Set Environment Variables
 
-Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. You can permanently set environment variables in a way matching your system's conventions. A method to set these variables temporarily (lasting only as long as the shell) is provided. For a standard OpenVINO™ toolkit installation:<br>
+Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. You can permanently set environment variables in a way matching your system's conventions. 
+
+A method to set these variables temporarily (lasting only as long as the shell) is provided. For a standard OpenVINO™ toolkit installation:<br>
 
 	source /opt/intel/computer_vision_sdk_2018.1.<version>/bin/setupvars.sh
-
 
 <br>
 
