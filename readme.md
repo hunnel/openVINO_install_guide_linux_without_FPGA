@@ -133,7 +133,7 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 
 ### Choose between the GUI or command-line installer.
 
-	> You have the option to use either a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.
+> You have the option to use either a GUI installation wizard or command-line instructions. The only difference between them is that the command-line installer is text-based. Instead of clicking options from a GUI, command-line prompts ask for input on a text screen.
 
 #### option 1. Use the GUI-based installation wizard.
 
@@ -160,9 +160,10 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 
 	./install.sh
 
+<li> Follow the command-line instructions to complete installation.</li><br>
 </ol>
 
-The Getting Started guide should open automatically in the browser once you complete the installation. 
+The Getting Started guide should open automatically in a web browser once you complete the installation. 
 
 If you used the default installation configuration, you can navigate to the OpenVINO™ Toolkit directory using the following command:
 
