@@ -14,7 +14,7 @@
 
 ## Introduction
 
-The OpenVINO™ toolkit quickly deploys applications and solutions that emulate human vision. Based on Convolutional Neural Networks (CNN), the Toolkit extends computer vision (CV) workloads across Intel® hardware, maximizing performance. The OpenVINO™ Toolkit includes the Intel® Deep Learning Deployment Toolkit.
+The OpenVINO™ toolkit quickly deploys applications and solutions that emulate human vision. Based on Convolutional Neural Networks (CNN), the toolkit extends computer vision (CV) workloads across Intel® hardware, maximizing performance. The OpenVINO™ toolkit includes the Intel® Deep Learning Deployment Toolkit.
 
 The OpenVINO™ toolkit for Linux:
 <ul>
@@ -34,7 +34,7 @@ These instructions describe:
 <li> Next steps</li>
 </ul>
 
-In addition, some topology-specific layers, like DetectionOutput used in the SSD*, are delivered in source code that assumes the extensions library is compiled and loaded. The extensions are required for pre-trained models inference. While you can build the library manually, the best way to compile the extensions library is to execute the demo scripts used in the Hello World walkthrough.
+Some topology-specific layers, like DetectionOutput used in the SSD*, are delivered in source code that assumes the extensions library required for pre-trained model inference is compiled and loaded, and installed with the OpenVINO™ toolkit. However, since the best performance is achieved when this library is compiled directly on your machine, the installation delivers the library source instead of pre-compiled libraries. The library is compiled after installation, when you execute the demo scripts used in the Hello World walkthrough. If you choose not to use Hello World, you must build the library manually before you use your pre-trained models.
 
 <br>
 
@@ -42,8 +42,8 @@ In addition, some topology-specific layers, like DetectionOutput used in the SSD
 
 | Component  			| Description |
 | ------------- 		| ------------- |
-| Deep Learning Model Optimizer | Model import tool. Imports trained models and converts to the Intermediate Representation format for use by Deep Learning Inference Engine. This is part of the Intel® Deep Learning Deployment Toolkit.  |
-| Deep Learning Inference Engine| Unified API to integrate the inference with application logic. This is part of the Intel® Deep Learning Deployment Toolkit.|
+| Deep Learning Model Optimizer | Model import tool. Imports trained models and converts them to the Intermediate Representation format for use by Deep Learning Inference Engine. The Model Optimizer is part of the Intel® Deep Learning Deployment Toolkit.  |
+| Deep Learning Inference Engine| Unified API to integrate the inference with application logic. The Inference Engine is part of the Intel® Deep Learning Deployment Toolkit.|
 | Drivers and runtimes for OpenCL™ version 2.1| Enables OpenCL 1.2 on the GPU/CPU for Intel® processors|
 | Intel® Media SDK | Offers access to hardware accelerated video codecs and frame processing |
 | OpenCV* version 3.4.1 | OpenCV* community version compiled for Intel® hardware. Includes PVL libraries for computer vision |
@@ -60,13 +60,13 @@ https://software.intel.com/en-us/openvino-toolkit/choose-download/free-download-
 
 ## System Requirements
 
-This guide covers the Linux* version of the OpenVINO™ toolkit that does not includes FPGA support. For the toolkit that includes FPGA support, see the [OpenVINO™ Toolkit Installation Guide for Linux with FPGA Support](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux-FPGA).
+This guide covers the Linux* version of the OpenVINO™ toolkit that does not include FPGA support. For the toolkit that includes FPGA support, see the [OpenVINO™ Toolkit Installation Guide for Linux with FPGA Support](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux-FPGA).
 
 <br>
 
 ### Development and Target Platform
 
-The development and target platforms have the same requirements, but you can select different components during the installation.
+The development and target platforms have the same requirements.
 
 #### Processors
 
@@ -80,16 +80,16 @@ The development and target platforms have the same requirements, but you can sel
 #### Processor Notes:
 
 <ul>
-	<li> Processor graphics are not included in all processors. See https://ark.intel.com/ for information about your processor.</li>
+	<li> Processor graphics are not included in all processors. See https://ark.intel.com/ for processor information.</li>
 	<li> A chipset that supports processor graphics is required for Intel® Xeon® processors.</li>
 </ul>
 
-#### Operating Systems:
+#### Operating Systems
 
 <ul>
 	<li> Ubuntu* 16.04.3 long-term support (LTS), 64-bit</li>
 	<li> CentOS* 7.4, 64-bit</li>
-	<li> Yocto Project* Poky Jethro* v2.0.3, 64-bit (for target only)</li>
+	<li> Yocto Project* Poky Jethro* v2.0.3, 64-bit (for target platform only)</li>
 </ul>
 
 <br>
@@ -142,13 +142,13 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 	
 	./install_GUI.sh
 
-<li> The Prerequisites screen tells you if you are missing any required or recommended components, and the effect the missing component has on installing or using the product.</li>
+<li> The Prerequisites screen tells you if you are missing any required or recommended components, and the effect the missing component has on installing or using the toolkit.</li>
 
 <li> Click Next to begin the installation, or make final changes to your component selections and choose your installation directory.</li>
 
 <li> The Installation summary screen shows you the options that will be installed if you make no changes.</li>
 
-<li> Choose Install if you are ready to start the installation, or if you want to change the selected components and/or specify the installation directory, choose Customize. To proceed with the standard installation, choose Install.</li>
+<li> Choose Install if you are ready to start the installation, or choose Customize if you want to change the selected components and/or specify the installation directory.</li>
 
 <li> A Complete screen indicates the software is installed. Click Finish to close the wizard.</li>
 </ol>
@@ -163,7 +163,7 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 <li> Follow the command-line instructions to complete installation.</li><br>
 </ol>
 
-The Getting Started guide should open automatically in a web browser once you complete the installation. 
+The Getting Started guide should open automatically in a web browser once you complete the installation. Follow the steps in the Getting Started Guide, but remember to come back to this document to set your environment variables and to use the information in Next Steps.
 
 If you used the default installation configuration, you can navigate to the OpenVINO™ Toolkit directory using the following command:
 
