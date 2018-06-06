@@ -142,15 +142,6 @@ The dependencies are packages required for Intel-optimized OpenCV 3.4, the Deep 
 	
 	./install_GUI.sh
 
-<li> The Prerequisites screen tells you if you are missing any required or recommended components, and the effect the missing component has on installing or using the toolkit.</li>
-
-<li> Click Next to begin the installation, or make final changes to your component selections and choose your installation directory.</li>
-
-<li> The Installation summary screen shows you the options that will be installed if you make no changes.</li>
-
-<li> Choose Install if you are ready to start the installation, or choose Customize if you want to change the selected components and/or specify the installation directory.</li>
-
-<li> A Complete screen indicates the software is installed. Click Finish to close the wizard.</li>
 </ol>
 
 #### option 2. Use the command-line installation wizard.
