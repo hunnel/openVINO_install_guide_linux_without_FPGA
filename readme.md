@@ -174,9 +174,9 @@ A method to set these variables temporarily (lasting only as long as the shell) 
 
 ## Next Steps
 
-(Optional) [Post-Installation Steps for Processor Graphics (GPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_GPU_linux.md)
+(Optional) [Additional Installation Steps for Processor Graphics (GPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_GPU_linux.md)
 
-(Optional) [Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_USB_rules_linux.md)
+(Optional) [Additional Post-Installation Steps for Intel® Movidius™ Neural Compute Stick (VPU)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/install_USB_rules_linux.md)
 
 [Hello World Tutorial for Linux (w/o FPGA)](https://github.com/hunnel/openVINO_install_guide_linux_without_FPGA/blob/master/hello_world_tutorial_linux.md)
 
